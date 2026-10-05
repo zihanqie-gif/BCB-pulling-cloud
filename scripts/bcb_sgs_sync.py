@@ -47,6 +47,14 @@ SERIES = [
     {"product": "Overdraft", "metric": "balance", "series": 20573, "unit": "BRL_mn"},
     {"product": "Overdraft", "metric": "nominal_rate_pa", "series": 20741, "unit": "pct_pa"},
     {"product": "Overdraft", "metric": "npl90", "series": 21113, "unit": "pct"},
+    # Revolving credit card
+    {"product": "Revolving Credit Card", "metric": "balance", "series": 20587, "unit": "BRL_mn"},
+    {"product": "Revolving Credit Card", "metric": "nominal_rate_pa", "series": 20755, "unit": "pct_pa"},
+    {"product": "Revolving Credit Card", "metric": "npl90", "series": 21127, "unit": "pct"},
+    # Installment credit card
+    {"product": "Installment Credit Card", "metric": "balance", "series": 20588, "unit": "BRL_mn"},
+    {"product": "Installment Credit Card", "metric": "nominal_rate_pa", "series": 20756, "unit": "pct_pa"},
+    {"product": "Installment Credit Card", "metric": "npl90", "series": 21128, "unit": "pct"},
 ]
 
 SHEET_TAB = "raw_credit_benchmark"
